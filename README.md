@@ -26,7 +26,7 @@ Once started, server's interface will ask us to input different values like host
 **It's important to follow this order:**
 1. First, run `server.py`until ```Waiting for sender...``` message appears.
 2. After this, run `client.py` and select the `Sender` mode. Wait until file transfer ends.
-3. Finally, run `client.py` selecting the `Receiver` mode and wait until program finish.
+3. Finally, run `client.py` selecting the `Receiver` mode and wait until program finish. __Don't forget to select _filename_ to not overwrite the _begin.txt_ file__
 
 >Server init:   
 > ![Alt text](img/running/server.png?raw=true "Server init")
