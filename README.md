@@ -28,6 +28,18 @@ Once started, server's interface will ask us to input different values like host
 2. After this, run `client.py` and select the `Sender` mode. Wait until file transfer ends.
 3. Finally, run `client.py` selecting the `Receiver` mode and wait until program finish.
 
+>Server init:   
+> ![Alt text](img/running/server.png?raw=true "Server init")
+>    
+> Client init:  
+> ![Alt text](img/running/client-sender.png?raw=true "Client init")
+> 
+> Server shows connection:  
+> ![Alt text](img/running/server2.png?raw=true "Server receive")  
+>    
+> Client receiving:
+> ![Alt text](img/running/client-receiver.png?raw=true "Client receiving")
+
 ## Testing
 
 Unit testing coverage isn't full yet. Due to the duration of the test, I haven't been able to cover completely
