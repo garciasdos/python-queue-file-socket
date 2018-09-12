@@ -37,7 +37,7 @@ Once started, server's interface will ask us to input different values like host
 > Server shows connection:  
 > ![Alt text](img/running/server2.png?raw=true "Server receive")  
 >    
-> Client receiving:
+> Client receiving:  
 > ![Alt text](img/running/client-receiver.png?raw=true "Client receiving")
 
 ## Testing
