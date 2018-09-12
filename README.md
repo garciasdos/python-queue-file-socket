@@ -28,4 +28,15 @@ Once started, server's interface will ask us to input different values like host
 2. After this, run `client.py` and select the `Sender` mode. Wait until file transfer ends.
 3. Finally, run `client.py` selecting the `Receiver` mode and wait until program finish.
 
-### Updating documentation with examples... 
+## Testing
+
+Unit testing coverage isn't full yet. Due to the duration of the test, I haven't been able to cover completely
+the program with tests, but in my opinion maybe the best way to cover a socket connection and these kind of methods is by __mocking__ 
+the connexion and continue with the test. As the test does not cover all the cases, I have tried to cover most of the 
+errors with __try-except__ sentences.
+
+## Deployent
+
+I'm used to working with Docker containers to have an isolated environment and to be able to test the code in an identical
+ environment to the production one, but since there were no special requirements in terms of compatibilities, 
+ and the time was 4 hours, I haven't seen it necessary.
